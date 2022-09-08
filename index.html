@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="top-div">
+
+<div class="calc-heading"><span><h1>calc</h1></span></div>
+<div class="theme"><span class="span-theme"><h6>THEME</h6></span></div> 
+
+<div class="theme-heading">
+
+  <div class="numbers">
+    <div class="num-span"><h5>1</h5></div>
+    <div class="num-span"><h5>2</h5></div>
+    <div class="num-span"><h5>3</h5></div>
+
+  </div>
+
+ <div class="theme-toggler">
+
+
+  <input type="checkbox" name="" id="check" class="toggle">
+  <label for="check" class="label-1"></label>
+
+  <input type="checkbox" name="" id="check1" class="toggle">
+  <label for="check1" class="label-2"></label>
+
+  <input type="checkbox" name="" id="check2" class="toggle">
+  <label for="check2" class="label-3"></label>
+
+  <span class="roller"></span>
+
+ </div>
+
+</div>
+
+</div>
+
+<div class="answer-display">
+  <div class="previousOperand"></div>
+  <div class="currentOperand"></div>
+</div>
+
+<div class="number-btns">
+  <button class="line btn">7</button>
+  <button class="line btn">8</button>
+  <button class="line btn">9</button>
+  <button class="line blue-btn  delete">DEL</button>
+  <button class="line btn">4</button>
+  <button class="line btn">5</button>
+  <button class="line btn">6</button>
+  <button class="line  operand">+</button>
+  <button class="line btn">1</button>
+  <button class="line btn">2</button>
+  <button class="line btn">3</button>
+  <button class="line  operand">-</button>
+  <button class="line btn">.</button>
+  <button class="line btn">0</button>
+  <button class="line  operand">/</button>
+  <button class="line  operand">x</button>
+  <button class="last-line blue-btn  allClear">RESET</button>
+  <button class="last-line  equals">=</button>
+
+</div>
+
+  
+
+
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/SANKAR_1609">Sankar_1609</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

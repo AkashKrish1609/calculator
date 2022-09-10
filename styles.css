@@ -28,20 +28,24 @@
 
 body{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--main-background);
     font-family: 'League Spartan', sans-serif;
     color: var(--text-color);
-    height: 100vh;
+    height: 100%;
     transition: 200ms ease-in-out;
+
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 60vh;
+    min-width: 10vw;
+    width: 30vw;
+    height: 70%;
+    margin: 6rem 0;
 }
 
                                           /* theme-toggle section */
@@ -117,7 +121,8 @@ body{
 
 .top-div{
     display: flex;
-    justify-content: space-between;
+    
+    width: inherit;
     
 }
 
@@ -128,7 +133,8 @@ body{
 }
 
 .theme{
-    margin-left: 60%;
+    margin-left: auto;
+    margin-right: 2%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -171,7 +177,7 @@ body{
 }
 
 
-                       /* numbers-buttons */
+                                         /* numbers-buttons */
 
 .number-btns{
     background-color: var(--input-background);
@@ -271,7 +277,7 @@ body.theme3 {
 }
 
 .attribution{
-    margin-top: 5%;
+
     color: var(--text-color);
     letter-spacing: 2px;
     font-size: large;
